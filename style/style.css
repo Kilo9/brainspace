@@ -1,0 +1,38 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+html
+{
+  position: relative;
+}
+
+header
+{
+  position: fixed;
+  height: 8%;
+  background-color: steelblue;
+  color: black;
+  width: 100%;
+}
+
+body
+{
+  background-color: lightblue;
+  height: 92%;
+  position: absolute;
+  top: 8%;
+}
+
+a#new
+{
+  background-color: darkblue;
+  color: white;
+  font-size: 16px;
+  height: 80%;
+  text-align: center;
+  line-height: 80%;
+}
