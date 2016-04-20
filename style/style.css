@@ -12,6 +12,7 @@ html
 
 header
 {
+  top: 0px;
   position: fixed;
   height: 8%;
   background-color: steelblue;
@@ -27,12 +28,23 @@ body
   top: 8%;
 }
 
-a#new
+div
 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  color: black;
+}
+
+a
+{
+  top: 10%;
   background-color: darkblue;
   color: white;
-  font-size: 16px;
   height: 80%;
-  text-align: center;
   line-height: 80%;
+  text-align: center;
+  display: inline-block;
+  padding-right: 20px;
+  font-family: helvetica;
 }
